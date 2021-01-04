@@ -1,0 +1,24 @@
+@media (max-width: 1300px) {
+  .popular {
+    .container {
+      grid-template-columns: repeat(3, 1fr);
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 960px) {
+  .popular {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .popular {
+    .container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }
+}

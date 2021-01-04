@@ -1,0 +1,41 @@
+@import "sass/variables.scss";
+
+.collection {
+  .card {
+    width: 24rem;
+    border: none;
+  }
+
+  p {
+    color: $sl-blue-grey-600;
+    font-size: $sl-font-size-regular;
+  }
+  .card1 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .card-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    span {
+      font-size: $sl-font-size-medium;
+      color: $sl-light-grey;
+    }
+  }
+  .btn-collection {
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  .collection {
+    .row {
+      padding: 1rem !important;
+    }
+    .card-title {
+      left: 4rem;
+    }
+  }
+}

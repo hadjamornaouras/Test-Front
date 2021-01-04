@@ -1,0 +1,10 @@
+@import "sass/variables.scss";
+
+.menu_left {
+  span.active {
+    // background-color: #fff !important;
+    color: $black_color;
+    font-weight: $sl-font-weight-large;
+    text-decoration: none;
+  }
+}

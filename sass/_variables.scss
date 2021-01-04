@@ -1,0 +1,61 @@
+////////////////////////////////
+// FONTS
+////////////////////////////////
+$sl-font-family-regular: "Open Sans", Helvetica, sans-serif;
+$sl-font-family-semibold: "Open Sans Semibold", Helvetica, sans-serif;
+$sl-font-family-bold: "Open Sans Bold", Helvetica, sans-serif;
+$sl-font-size-2xlarge: 3rem;
+$sl-font-size-xlarge: 2rem;
+$sl-font-size-large: 1.8rem;
+$sl-font-size-regular: 1.6rem;
+$sl-font-size-medium: 1.4rem;
+$sl-font-size-small: 1.2rem;
+$sl-font-weight-regular: 400;
+$sl-font-weight-large: 600;
+$sl-line-height-regular: 1.6;
+$sl-line-height-medium: 1.4;
+$sl-line-height-small: 1.2;
+////////////////////////////////
+// REDEFINING COLORS AS SASS VARIABLES TO BUILD COLOR CSS CLASSES
+////////////////////////////////
+$sl-blue-50: #e3f2fd;
+$sl-blue-100: #bbdefb;
+$sl-blue-200: #90caf9;
+$sl-blue-300: #64b5f6;
+$sl-blue-400: #42a5f5;
+$sl-blue-500: #2196f3;
+$sl-blue-600: #1e88e5;
+$sl-blue-700: #1976d1;
+$sl-blue-800: #1565c0;
+$sl-blue-900: #0d47a1;
+
+$sl-light-blue-A100: #80d8ff;
+$sl-light-blue-A400: #00b0ff;
+$sl-light-blue-A700: #0091ea;
+$sl-light-grey: #d3d3d3;
+
+$sl-blue-grey-25: #f5f5f5;
+$sl-blue-grey-50: #eceff1;
+$sl-blue-grey-100: #cfd8dc;
+$sl-blue-grey-200: #b0bec5;
+$sl-blue-grey-300: #90a4ae;
+$sl-blue-grey-400: #78909c;
+$sl-blue-grey-500: #607d8b;
+$sl-blue-grey-600: #546e7a;
+$sl-blue-grey-700: #455a64;
+$sl-blue-grey-900: #263238;
+
+$sl-white: #ffffff;
+
+/* Complementary colors */
+$sl-red-500: #f44336;
+$sl-pink-500: #e91e63;
+$sl-purple-500: #9c27b0;
+$sl-cyan-500: #00bcd4;
+$sl-orange-500: #ff9800;
+$sdeep-orange-500: #ff5722;
+
+$primary_color: #333;
+$second_color: #444;
+$overaly_color: rgba(0, 0, 0, 0.7);
+$black_color: black;

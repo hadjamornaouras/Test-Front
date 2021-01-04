@@ -1,0 +1,143 @@
+@import "sass/variables.scss";
+
+.navbar {
+  .container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .account {
+    padding: 2rem;
+  }
+  .menu {
+    width: 44%;
+    height: 44%;
+  }
+  .search {
+    width: 33%;
+    height: 33%;
+  }
+
+  .logo {
+    font-size: $sl-font-size-2xlarge;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    color: $black_color;
+  }
+  .nav1 {
+    justify-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $black_color;
+    cursor: pointer;
+    a {
+      padding: 0 1rem;
+      display: flex;
+      font-size: $sl-font-size-medium;
+      span {
+        font-size: $sl-font-size-medium;
+        color: $sl-light-grey;
+      }
+    }
+    &:hover {
+      color: $sl-light-blue-A700;
+    }
+    button {
+      border: none;
+      background: none;
+      width: 8rem;
+      font-size: 1.8rem;
+    }
+  }
+  .nav2 {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $black_color;
+    a {
+      padding: 0 1rem;
+      color: $black_color !important;
+      font-size: $sl-font-size-medium;
+    }
+    &:hover {
+      color: $sl-light-blue-A700;
+    }
+    .btn-search {
+      border: none;
+      background: transparent;
+      font-size: $sl-font-size-large;
+    }
+    .search-input {
+      transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
+      input {
+        font-size: $sl-font-size-large;
+        border: none;
+        outline: none;
+        background: none;
+        z-index: 1;
+        cursor: pointer;
+        border-bottom: 1px solid #bbb;
+        &:focus {
+          z-index: 1;
+          border-bottom: 1px solid #bbb;
+          cursor: text;
+        }
+        &:focus:hover {
+          border-bottom: 1px solid #bbb;
+        }
+      }
+    }
+    .btn-sort {
+      background: none;
+      border: none;
+      font-size: large;
+      padding: 1rem;
+      font-size: $sl-font-size-medium;
+    }
+    .active-btn-sort {
+      background: none;
+      border: none;
+      font-size: large;
+      padding: 1rem;
+      color: $sl-blue-600;
+      font-size: $sl-font-size-medium;
+    }
+  }
+}
+
+// @media (max-width: 800px) {
+//   .filter {
+//     .left {
+//       display: grid;
+//       text-align: center;
+//       grid-template-columns: repeat(3, 1fr);
+//       span {
+//         display: grid;
+//         grid-template-columns: repeat(2, 1fr);
+//       }
+//     }
+//   }
+// }
+@media (max-width: 420px) {
+  .navbar {
+    .container {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .account {
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .navbar {
+    .nav2 {
+      padding: 1px;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+$primary_color: #333;
+$second_color: #444;
+$overaly_color: rgba(0, 0, 0, 0.7);
+#root {
+  --primary-color: $primary_color;
+  --secondary-color: $second_color;
+  --overaly-color: $overaly_color;
+}
